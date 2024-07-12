@@ -26,6 +26,50 @@ let BooleanisLoggedIn = Boolean(isLoggedin)
 let someNumber =33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
  
+//******************** Operations ******************* */
+
+// let value =3
+// let negvalue = -value
+// console.log(negvalue);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+
+// note -- first value is string then treat all value is string.
+// OR -- first value is number then opertion is continue and last value is string.
+
+// console.log((3+4)*5%3);
+
+//console.log(+true);
+//console.log(+"");     //not prefer in this type of  code
+
+let num1, num2, num3
+num1 =num2= num3=2+2
+ 
+let gameCounter=100
+gameCounter++;
+console.log(gameCounter);
+//------------poostfix operatos Example-------------
+
+let x = 3;
+const y = x++;
+// x is 4; y is 3
+
+let x2 = 3n;
+const y2 = x2++;
+// x2 is 4n; y2 is 3n
+
+//------------prefix Operators Example---------------
+let x1 = 3;
+const y1 = ++x;
+// x1 is 4; y1 is 4
+
+let x3 = 3n;
+const y4 = ++x2;
+// x3is 4n; y4 is 4n
+
