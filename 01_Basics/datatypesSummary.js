@@ -23,10 +23,6 @@ let Myobj={
     name:"vaibhav",
     age: 22,
 }
-
-const MyFunction =function(){
-    console.log("Hello world");
-}
-
-console.log(typeof BigNumber);
+//const BigNumber =340494802302312n
+//console.log(BigNumber);
 
